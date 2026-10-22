@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun test:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npx tsc --noEmit:*)"
+    ],
+    "ask": [
+      "Bash(npm install:*)",
+      "Bash(npm i:*)",
+      "Bash(bun install:*)",
+      "Bash(bunx:*)",
+      "Bash(npx:*)",
+      "Bash(git push:*)",
+      "Bash(gh:*)"
+    ]
+  }
+}
