@@ -1,6 +1,12 @@
 # Fabric Patterns Changelog
 
-## [Initial Version] - {PR_MERGE_DATE}
+## [Store screenshots and dependency update] - {PR_MERGE_DATE}
+
+- New Store screenshots: the pattern list, a search, and the run form.
+- The README links the Store listing.
+- @raycast/api 2.11.1, with a minimatch override that clears GHSA-g3hv-75wg-m249.
+
+## [Initial Version] - 2026-11-18
 
 - Run any fabric pattern on the selection, a URL, a YouTube video or a file, with the answer copied, pasted or saved.
 - Long runs in the background, with a notification when they finish.
